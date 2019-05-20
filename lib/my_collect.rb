@@ -1,6 +1,6 @@
 def my_collect(collection)
-  collection.collect do |i|
-    yield(collection[i])
+    collection.collect do |i|
+    yield(i)
   end
   collection
 end
